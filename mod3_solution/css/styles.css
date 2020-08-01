@@ -11,3 +11,99 @@ body {
 	border-radius: 0;
 	border: 0;
 }
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 {
+	font-family: 'Dancing Script', cursive;
+	color: #2e2d2d;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand h1 span {
+	font-family: 'Bebas Neue', cursive;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #4a4a4a;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+#nav-list a:hover {
+	background: #7c7d7c;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 2px solid #000000;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+/* END OF HEADER */
+
+/* main content */
+.main-container {
+	text-align: center;
+}
+
+#page-heading h2 {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: bold;
+	font-size: 5em;
+	color: #5c5c5c;
+}
+
+#page-heading h2 span {
+	font-family: 'Dancing Script', cursive;
+	color: #141715;
+}
+
+.main-section {
+	background-color: #848785;
+	font-family: 'Indie Flower', cursive;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 25px;
+}
+.main-section h3 {
+	font-family: 'Pacifico', cursive;
+	margin-bottom: 25px;
+	font-size: 2.5em;
+}
+/* end of main content */
+
+/* Extra small devices only */
+@media (max-width: 767px) {
+	/*Header*/
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+}
